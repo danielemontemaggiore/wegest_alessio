@@ -1,4 +1,4 @@
-package com.robotemplates.webviewapp.fragment;
+package com.wegest.workingevolution.fragment;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -35,16 +35,16 @@ import android.widget.Toast;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
-import com.robotemplates.webviewapp.R;
-import com.robotemplates.webviewapp.WebViewAppConfig;
-import com.robotemplates.webviewapp.listener.WebViewOnKeyListener;
-import com.robotemplates.webviewapp.listener.WebViewOnTouchListener;
-import com.robotemplates.webviewapp.utility.ContentUtility;
-import com.robotemplates.webviewapp.utility.DownloadUtility;
-import com.robotemplates.webviewapp.utility.Logcat;
-import com.robotemplates.webviewapp.utility.NetworkUtility;
-import com.robotemplates.webviewapp.utility.PermissionUtility;
-import com.robotemplates.webviewapp.view.StatefulLayout;
+import com.wegest.workingevolution.R;
+import com.wegest.workingevolution.WebViewAppConfig;
+import com.wegest.workingevolution.listener.WebViewOnKeyListener;
+import com.wegest.workingevolution.listener.WebViewOnTouchListener;
+import com.wegest.workingevolution.utility.ContentUtility;
+import com.wegest.workingevolution.utility.DownloadUtility;
+import com.wegest.workingevolution.utility.Logcat;
+import com.wegest.workingevolution.utility.NetworkUtility;
+import com.wegest.workingevolution.utility.PermissionUtility;
+import com.wegest.workingevolution.view.StatefulLayout;
 
 import java.io.File;
 

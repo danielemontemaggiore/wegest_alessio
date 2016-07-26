@@ -1,5 +1,7 @@
-package com.robotemplates.webviewapp;
+package com.wegest.workingevolution;
 
+
+import com.wegest.workingevolution.BuildConfig;
 
 public class WebViewAppConfig
 {

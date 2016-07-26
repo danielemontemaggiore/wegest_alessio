@@ -1,4 +1,4 @@
-package com.robotemplates.webviewapp.utility;
+package com.wegest.workingevolution.utility;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

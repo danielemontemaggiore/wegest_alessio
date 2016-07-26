@@ -1,7 +1,7 @@
-package com.robotemplates.webviewapp.listener;
+package com.wegest.workingevolution.listener;
 
-import com.robotemplates.webviewapp.utility.Logcat;
-import com.robotemplates.webviewapp.view.RoboWebView;
+import com.wegest.workingevolution.utility.Logcat;
+import com.wegest.workingevolution.view.RoboWebView;
 
 
 public class WebViewOnScrollListener implements RoboWebView.OnScrollListener

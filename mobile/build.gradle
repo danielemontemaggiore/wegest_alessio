@@ -36,18 +36,18 @@ android
 
 	defaultConfig
 	{
-		applicationId "com.robotemplates.webviewapp"
+		applicationId "com.wegest.workingevolution"
 		minSdkVersion 15
 		targetSdkVersion 23
-		versionCode VERSION_MAJOR*10000000 + VERSION_MINOR*100000 + VERSION_PATCH*1000 + VERSION_BUILD
-		versionName "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}"
+		versionCode 1
+		versionName "1.0"
 
 		// app id and Google project number for OneSignal push notifications,
 		// leave these constants empty if you do not want to use push notifications,
 		// see https://documentation.onesignal.com for more info
 		manifestPlaceholders = [manifestApplicationId: "${applicationId}",
-								onesignal_app_id: "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
-								onesignal_google_project_number: "XXXXXXXXXXXX"]
+								onesignal_app_id: "44d2d151-1804-44c8-bdd7-ad61a5511849",
+								onesignal_google_project_number: "130731575580"]
 	}
 
 	signingConfigs

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">WebView App</string>
+	<string name="app_name">WeGest</string>
 
-	<string name="navigation_header_title">WebView App</string>
+	<string name="navigation_header_title">WeGest</string>
 
-	<string name="global_offline_toast">No Internet connection available</string>
+	<string name="global_offline_toast">Nessuna connessione Internet disponibile</string>
 
 	<string name="menu_fragment_main_share">Share</string>
 
@@ -12,7 +12,7 @@
 	<string name="drawer_close">Close navigation drawer</string>
 
 	<string name="placeholder_empty">Not found</string>
-	<string name="placeholder_offline">No Internet connection available</string>
+	<string name="placeholder_offline">Nessuna connessione Internet disponibile</string>
 
 	<string name="permission_read_external_storage">Permission to read files is required</string>
 	<string name="permission_write_external_storage">Permission to write files is required</string>

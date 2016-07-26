@@ -1,12 +1,12 @@
-package com.robotemplates.webviewapp.listener;
+package com.wegest.workingevolution.listener;
 
 import android.content.Context;
 import android.content.Intent;
 
 import com.onesignal.OneSignal;
-import com.robotemplates.webviewapp.WebViewAppApplication;
-import com.robotemplates.webviewapp.activity.MainActivity;
-import com.robotemplates.webviewapp.utility.Logcat;
+import com.wegest.workingevolution.WebViewAppApplication;
+import com.wegest.workingevolution.activity.MainActivity;
+import com.wegest.workingevolution.utility.Logcat;
 
 import org.json.JSONObject;
 

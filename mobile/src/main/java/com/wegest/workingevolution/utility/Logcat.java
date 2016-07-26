@@ -1,8 +1,8 @@
-package com.robotemplates.webviewapp.utility;
+package com.wegest.workingevolution.utility;
 
 import android.util.Log;
 
-import com.robotemplates.webviewapp.WebViewAppConfig;
+import com.wegest.workingevolution.WebViewAppConfig;
 
 
 public final class Logcat

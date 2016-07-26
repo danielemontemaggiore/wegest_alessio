@@ -1,4 +1,4 @@
-package com.robotemplates.webviewapp.activity;
+package com.wegest.workingevolution.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -22,10 +22,11 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.analytics.GoogleAnalytics;
-import com.robotemplates.webviewapp.R;
-import com.robotemplates.webviewapp.WebViewAppApplication;
-import com.robotemplates.webviewapp.WebViewAppConfig;
-import com.robotemplates.webviewapp.fragment.MainFragment;
+import com.wegest.workingevolution.R;
+import com.wegest.workingevolution.WebViewAppApplication;
+import com.wegest.workingevolution.WebViewAppConfig;
+import com.wegest.workingevolution.fragment.MainFragment;
+import com.onesignal.OneSignal;
 
 
 public class MainActivity extends AppCompatActivity
@@ -77,6 +78,8 @@ public class MainActivity extends AppCompatActivity
 		// bind data
 		bindData();
 
+		// START ONE SIGNAL SERVICE
+		OneSignal.startInit(this).init();
 		// init analytics tracker
 		((WebViewAppApplication) getApplication()).getTracker();
 

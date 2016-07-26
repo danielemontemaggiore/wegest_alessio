@@ -1,4 +1,4 @@
-package com.robotemplates.webviewapp.utility;
+package com.wegest.workingevolution.utility;
 
 import android.content.ContentUris;
 import android.content.Context;
